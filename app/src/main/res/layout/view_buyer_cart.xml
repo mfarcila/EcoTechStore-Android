@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView style="@style/EcoTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Articulos en tu Carrito (CRUD Dinamico)" />
+        <LinearLayout android:id="@+id/cartItemsContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="vertical" />
+        <TextView android:id="@+id/tvCartTotal" style="@style/EcoTitleText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Total Carrito: $ 0 COP" android:textColor="@color/buyer_primary" />
+        <com.google.android.material.card.MaterialCardView style="@style/EcoCard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" app:contentPadding="16dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/EcoTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Geolocalizacion de Entrega (GPS - RF04)" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Ubicacion capturada: Bogota D.C. (Lat: 4.658, Lng: -74.093)" android:textColor="@color/eco_text_secondary" />
+                <FrameLayout android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginTop="8dp" android:background="@color/buyer_surface_tint">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:text="[ Google Maps SDK View - Pin Entrega Activo ]" android:textColor="@color/buyer_primary_dark" android:textStyle="bold" />
+                </FrameLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <Button android:id="@+id/btnProceedToPayment" style="@style/EcoButtonPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:backgroundTint="@color/buyer_primary" android:text="Ir a la Pasarela de Pagos" />
+    </LinearLayout>
+</ScrollView>

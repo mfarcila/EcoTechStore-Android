@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <com.google.android.material.card.MaterialCardView style="@style/EcoCard" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/buyer_primary" app:contentPadding="20dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Economia Circular EcoTech" android:textColor="@color/eco_white" android:textSize="20sp" android:textStyle="bold" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Hasta 40% OFF en portatiles y moviles certificados con garantia legal." android:textColor="#E1F5FE" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView style="@style/EcoCard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" app:contentPadding="16dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/EcoTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MacBook Air M1 256GB (Eco-Certificado)" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="$ 2.450.000 COP (IVA Incluido)" android:textColor="@color/buyer_primary" android:textSize="18sp" android:textStyle="bold" />
+                <Button android:id="@+id/btnOpenDetailFromHome" style="@style/EcoButtonPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:backgroundTint="@color/buyer_primary" android:text="Ver Detalle del Producto" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

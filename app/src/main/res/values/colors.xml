@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="eco_black">#12181B</color>
+    <color name="eco_white">#FAFDFB</color>
+    <color name="eco_bg_light">#F0F4F8</color>
+    <color name="eco_surface">#FFFFFF</color>
+    <color name="eco_text_primary">#1E293B</color>
+    <color name="eco_text_secondary">#64748B</color>
+    <color name="eco_error">#D32F2F</color>
+    <color name="eco_warning">#F57C00</color>
+    <color name="buyer_primary">#0277BD</color>
+    <color name="buyer_primary_dark">#004C8C</color>
+    <color name="buyer_accent">#29B6F6</color>
+    <color name="buyer_surface_tint">#E1F5FE</color>
+    <color name="seller_primary">#2E7D32</color>
+    <color name="seller_primary_dark">#005005</color>
+    <color name="seller_accent">#66BB6A</color>
+    <color name="seller_surface_tint">#E8F5E9</color>
+    <color name="admin_primary">#6A1B9A</color>
+    <color name="admin_primary_dark">#38006B</color>
+    <color name="admin_accent">#AB47BC</color>
+    <color name="admin_surface_tint">#F3E5F5</color>
+</resources>

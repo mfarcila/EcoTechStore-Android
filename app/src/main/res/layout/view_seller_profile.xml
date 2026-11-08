@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <com.google.android.material.card.MaterialCardView style="@style/EcoCard" android:layout_width="match_parent" android:layout_height="wrap_content" app:contentPadding="20dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView style="@style/EcoTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seller_profile_title" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Nivel: Oferente Certificado EcoTech (4.9 Estrellas)" android:textColor="@color/seller_primary" android:textStyle="bold" />
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:hint="Nombre de la Tienda / Vendedor">
+                <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GreenTech Bogota S.A.S." />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button style="@style/EcoButtonPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:backgroundTint="@color/seller_primary" android:text="Guardar Perfil de Vendedor" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</ScrollView>

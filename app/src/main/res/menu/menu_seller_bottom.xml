@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_seller_products" android:icon="@android:drawable/ic_menu_manage" android:title="Productos (CRUD)" />
+    <item android:id="@+id/nav_seller_orders" android:icon="@android:drawable/ic_menu_recent_history" android:title="Pedidos" />
+    <item android:id="@+id/nav_seller_profile" android:icon="@android:drawable/ic_menu_myplaces" android:title="Perfil Vendedor" />
+</menu>

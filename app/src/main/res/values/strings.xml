@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoTech Store</string>
+    <string name="slogan">Tecnologia Reacondicionada y Sustentable</string>
+    <string name="login_title">Iniciar Sesion</string>
+    <string name="email_hint">Correo electronico</string>
+    <string name="password_hint">Contrasena</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_biometric">Ingresar con Huella (Biometria)</string>
+    <string name="btn_google">Continuar con Google (OAuth 2.0)</string>
+    <string name="forgot_password">¿Olvidaste tu contrasena? Recuperala aqui</string>
+    <string name="habeas_data_check">Autorizo el tratamiento de datos personales (Ley 1581 de 2012)</string>
+    <string name="terms_check">Acepto Terminos y Condiciones (Ley 527 de 1999)</string>
+    <string name="recover_title">Recuperar Contrasena</string>
+    <string name="recover_desc">Ingresa tu correo registrado para enviarte un enlace de restablecimiento seguro.</string>
+    <string name="btn_send_recover">Enviar enlace de recuperacion</string>
+    <string name="quick_role_access">Acceso por Rol (Demo Interfaces):</string>
+    <string name="role_buyer">Rol Comprador</string>
+    <string name="role_seller">Rol Vendedor</string>
+    <string name="role_admin">Rol Admin</string>
+    <string name="buyer_home_title">EcoTech - Inicio Comprador</string>
+    <string name="buyer_catalog_title">Catalogo Sustentable</string>
+    <string name="buyer_cart_title">Mi Carrito y Envio GPS</string>
+    <string name="buyer_profile_title">Mi Perfil (Comprador)</string>
+    <string name="product_detail_title">Detalle del Producto</string>
+    <string name="payment_gateway_title">Pasarela de Pagos (PSE / Tarjeta)</string>
+    <string name="warranty_policy">Politicas de Garantia y Derecho de Retracto (Ley 1480 de 2011)</string>
+    <string name="seller_panel_title">Mis Productos (CRUD Vendedor)</string>
+    <string name="seller_orders_title">Historial de Pedidos Recibidos</string>
+    <string name="seller_profile_title">Perfil de Vendedor</string>
+    <string name="btn_open_camera">Tomar Fotografia (CameraX)</string>
+    <string name="admin_dash_title">Dashboard Administrador</string>
+    <string name="admin_users_title">Gestion Global de Usuarios (CRUD)</string>
+    <string name="admin_products_title">Moderacion de Productos</string>
+    <string name="admin_sales_title">Reporte de Ventas y Reversiones</string>
+    <string name="btn_reversal">Ejecutar Reversion de Pago (Decreto 587)</string>
+</resources>

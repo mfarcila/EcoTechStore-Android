@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EcoTechStore" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/buyer_primary</item>
+        <item name="colorPrimaryDark">@color/buyer_primary_dark</item>
+        <item name="colorAccent">@color/buyer_accent</item>
+        <item name="android:windowBackground">@color/eco_bg_light</item>
+        <item name="android:statusBarColor">@color/buyer_primary_dark</item>
+    </style>
+    <style name="Theme.EcoTech.Buyer" parent="Theme.EcoTechStore">
+        <item name="colorPrimary">@color/buyer_primary</item>
+        <item name="android:statusBarColor">@color/buyer_primary_dark</item>
+    </style>
+    <style name="Theme.EcoTech.Seller" parent="Theme.EcoTechStore">
+        <item name="colorPrimary">@color/seller_primary</item>
+        <item name="android:statusBarColor">@color/seller_primary_dark</item>
+    </style>
+    <style name="Theme.EcoTech.Admin" parent="Theme.EcoTechStore">
+        <item name="colorPrimary">@color/admin_primary</item>
+        <item name="android:statusBarColor">@color/admin_primary_dark</item>
+    </style>
+    <style name="EcoButtonPrimary" parent="Widget.Material3.Button">
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="EcoCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/eco_surface</item>
+    </style>
+    <style name="EcoTitleText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/eco_text_primary</item>
+    </style>
+</resources>
